@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from dotenv import load_dotenv
 
-load_dotenv("fun_load.env") 
+# load_dotenv("fun_load.env") 
 # API_KEY = ("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")
 
 API_KEY = st.secrets["openrouter"]["api_key"]
